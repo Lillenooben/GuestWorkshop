@@ -71,7 +71,7 @@ struct MovingCircles : View {
             .gradientBackgound()
             Button("Animate")
             {
-                self.animate.toggle()
+                self.animate.toggle()   
                 self.scale = self.animate ? 1.0 : 0.2
             }
             .buttonStyle(.borderedProminent)
